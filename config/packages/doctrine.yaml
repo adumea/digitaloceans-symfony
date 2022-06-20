@@ -1,11 +1,11 @@
 doctrine:
     dbal:
-        driver: sqlsrv
-        host: 'mysql-server-azure.database.windows.net'
-        port: '1433'
-        dbname: 'mysql'
-        user: 'adumea'
-        password: '76UZ5KUT6BMLC5O5$'
+        driver: pdo_mysql
+        host: 'db-mysql-nyc3-64342-do-user-11781157-0.b.db.ondigitalocean.com'
+        port: '25060'
+        dbname: 'defaultdb'
+        user: 'doadmin'
+        password: 'AVNS_c-AexVGDj82N0PF0kjz'
         charset: UTF-8
     orm:
         auto_generate_proxy_classes: true
