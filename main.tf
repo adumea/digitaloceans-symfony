@@ -15,7 +15,7 @@ variable "secret_key" {}
 
 # Configure the DigitalOcean Provider
 provider "digitalocean" {
-  token             = ${{ secrets.DO_TOKEN }}
+  token             = secrets.DO_TOKEN
 }
 
 
