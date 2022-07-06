@@ -16,9 +16,6 @@ provider "digitalocean" {
   token = var.do_token
 }
 
-data "digitalocean_ssh_key" "Desktop" {
-  name = "Desktop"
-}
 
 resource "digitalocean_app" "digitaloceans-symfonys" {
   spec {
