@@ -11,7 +11,7 @@ terraform {
 # or using -var="do_token=..." CLI option
 
 # Configure the DigitalOcean Provider
-provider "digitalocean" {
+provider "digitalocean" = {
   token = "${{ secrets.DO_TOKEN }}"
 }
 
