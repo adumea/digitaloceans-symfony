@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     digitalocean = {
-      source = "digitalocean/digitalocean"
+      source  = "digitalocean/digitalocean"
       version = "~> 2.0"
     }
   }
@@ -28,9 +28,9 @@ resource "digitalocean_app" "digitaloceans-symfony" {
       instance_size_slug = "professional-xs"
 
       github {
-       branch         = "master"
-       deploy_on_push = true
-       repo           = "adumea/digitaloceans-symfony"
+        branch         = "master"
+        deploy_on_push = true
+        repo           = "adumea/digitaloceans-symfony"
       }
     }
   }
