@@ -69,9 +69,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
 
-    - script: dir
-      workingDirectory: #
-      displayName: List contents of a folder
+    - name: Dir
+      run: cd ../../
 
     # Install the latest version of Terraform CLI and configure the Terraform CLI configuration file with a Terraform Cloud user API token
     - name: Setup Terraform
