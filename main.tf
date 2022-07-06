@@ -10,10 +10,14 @@ terraform {
 # Set the variable value in *.tfvars file
 # or using -var="do_token=..." CLI option
 variable "do_token" {}
+variable "access_id" {}
+variable "secret_key" {}
 
 # Configure the DigitalOcean Provider
 provider "digitalocean" {
-  token = var.do_token
+  token             = var.do_token
+  spaces_access_id  = var.access_id
+  spaces_secret_key = var.secret_key
 }
 
 
