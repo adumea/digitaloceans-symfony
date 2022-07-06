@@ -1,3 +1,3 @@
-do_token = "dop_v1_216bd2dd48fca793e5c607d2bb11e0b35a9007fa04047d30e5dfea81d36914c7"
+do_token = "dop_v1_66d2c346e12ebf48c96ba57cdc24224c05abb625b622f756620d6dfc7cd47ece"
 access_id = "4AQJGPPLQDHQ2B53BMGE"
 secret_key = "F3HFIMYNMDCVMG66CVAW"
