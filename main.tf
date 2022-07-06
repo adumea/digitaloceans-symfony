@@ -21,13 +21,13 @@ provider "digitalocean" {
 }
 
 
-resource "digitalocean_app" "digitaloceans-symfonys" {
+resource "digitalocean_app" "digitaloceans-symfony" {
   spec {
-    name   = "digitaloceans-symfonys"
+    name   = "digitaloceans-symfony"
     region = "ams"
 
     service {
-      name               = "digitaloceans-symfonys"
+      name               = "digitaloceans-symfony"
       environment_slug   = "php"
       instance_count     = 1
       instance_size_slug = "professional-xs"
