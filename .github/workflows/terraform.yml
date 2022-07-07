@@ -53,6 +53,8 @@ on:
 permissions:
   contents: read
 
+env:
+  DO_TOKEN: ${{ secrets.DO_TOKEN }}
 jobs:
   terraform:
     name: 'Terraform'
