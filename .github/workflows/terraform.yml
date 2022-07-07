@@ -54,7 +54,7 @@ permissions:
   contents: read
 
 env:
-  TF_VAR_DO_TOKEN: ${{ secrets.DO_TOKEN }}
+  TF_VAR_TOKEN: ${{ secrets.DO_TOKEN }}
 jobs:
   terraform:
     name: 'Terraform'
