@@ -1,3 +1,3 @@
-variable "tf_var_do_token" {
+variable "do_token" {
     type = string
 }
