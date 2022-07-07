@@ -12,7 +12,6 @@ terraform {
 
 # Configure the DigitalOcean Provider
 provider "digitalocean" {
-    features {}
   # token = "${{ secrets.DO_TOKEN }}"
 }
 
