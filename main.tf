@@ -13,7 +13,7 @@ variable "do_token" {}
 
 # Configure the DigitalOcean Provider
 provider "digitalocean" {
-  token = "${{ secrets.do_token }}"
+  token = var.do_token
 }
 
 
