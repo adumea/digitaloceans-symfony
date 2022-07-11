@@ -1,4 +1,4 @@
-variable "digitalocean_token" {
+variable "do_token" {
     type = string
 }
 
